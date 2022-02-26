@@ -1,49 +1,25 @@
-## 4 Software Testing Fundamental
+# 5 Testing Dokumentation
 
-## Resume
+# Resume
 
-### Software testing
+## Test Scenario & Test Case
 
-Software testing adalah proses analisis item untuk mendeteksi antara kondisi yang ada dan yang dibutuhkan (yaitu, cacat) dan untuk mengevaluasi fitur item perangkat lunak.
+### 1. Test Scenario
+Skenario pengujian memberikan gambaran tentang apa yang harus kita uji.
+Skenario pengujian seperti kasus uji tingkat tinggi.
 
-### Software testing important
--  saves money
--  product quality
--  security
--  customer satisfaction
-Perangkat lunak bisa mahal atau bahkan berbahaya. 
-Perangkat lunak berpotensi menyebabkan kerugian moneter dan kemanusiaan. Perangkat lunak berpotensi menyebabkan kerugian moneter dan kemanusiaan.
+Example Test Scenario
+1. Check the login functionality
+2. Check The forgot email functionality
+3. Check the create new account functionality
 
-### Testing Platform
--  API
--  Web
--  Mobile
--  Desktop
+### 2. Test Case
+Kasus uji adalah serangkaian langkah skenario pengujian yang dapat dieksekusi positif dan negatif.
+Test case memiliki seperangkat kondisi awal, langkah-langkah, hasil yang diharapkan, status dan hasil aktual.
 
-### Types of software testing
-
-1. Functional testing
-- manual
--  automate
--  etc.
-
-2. Non - functional testing
-- performance testing
-- etc.
-
-3. Maintenance
-- regression
--  etc. 
-
-### Levels of Testing
-
-Unit Testing - Integration Testing - System' Testing - Acceptance Testing. 
-
-- Unit Testing 
-Adalah tingkat pengujian perangkat lunak di mana unit individu atau komponen perangkat lunak diuji.
-- Integration Testing 
-Adalah tingkat pengujian perangkat lunak di mana unit individu digabungkan dan diuji sebagai sebuah kelompok.
-- System Testing
-Adalah tingkat pengujian perangkat lunak di mana perangkat lunak yang lengkap dan terintegrasi diuji.
-- Acceptance Testing
-Adalah tingkat pengujian perangkat lunak di mana suatu sistem diuji untuk penerimaan
+Example Test Case
+Test Scenario : Check the login functionality
+-  Test Case 1 : enter valid email and valid password
+-  Test Case 2 : enter valid email and invalid password
+-  Test Case 3 : enter invalid email and valid password
+-  Test Case 4 : enter invalid email and invalid password
